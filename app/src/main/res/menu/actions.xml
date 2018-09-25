@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/download"
+        android:icon="@drawable/getapp"
+        android:title="Download"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/actionOpen"
+        android:icon="@drawable/folder"
+        android:title="Abrir"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/actionAdd"
+        android:icon="@drawable/plus"
+        android:title="Adicionar"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/crop"
+        android:icon="@drawable/crop"
+        android:title="Cortar"
+        app:showAsAction="ifRoom" />
+</menu>
